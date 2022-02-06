@@ -1,0 +1,23 @@
+.weather-data {
+    color: #2D3748;
+    width: 50%;
+    margin-bottom: 20px;
+
+    .variable-name {
+      font-size: 18px;
+    }
+
+    .variable-number {
+      display: flex;
+      align-content: center;
+      margin-top: 4px;
+      font-size: 30px;
+      font-weight: 500;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+}

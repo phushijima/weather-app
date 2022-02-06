@@ -1,0 +1,40 @@
+.search-div {
+    display: flex;
+
+    input {
+        border: 1px solid;
+        border-radius: 3px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px;
+        transition: 0.1s ease-out;
+        border-color: lighten($color: #000000, $amount: 60%);
+        color: lighten($color: #000000, $amount: 60%);
+    }
+    
+    input:focus {
+        border-color: lighten($color: #000000, $amount: 30%);
+        color: lighten($color: #000000, $amount: 30%);
+    }
+    
+    button {
+        display: flex;
+        align-content: center;
+        margin-left: 5px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        
+        svg {
+            align-self: center;
+            transition: fill 0.1s ease-out;
+            fill: lighten($color: #000000, $amount: 80%);
+        }
+    
+        &:hover {
+            svg {
+                fill: lighten($color: #000000, $amount: 50%);
+            }
+        }
+    }
+}
